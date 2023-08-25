@@ -1,0 +1,101 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.indicaciones{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.formulario{
+    margin-top: -7px;
+}
+
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px; /* Cambia el valor según tus necesidades */
+    margin: 0 auto; /* Centrar la tabla */
+
+}
+
+table, th, td {
+    border: 1px solid #ccc; /* Grosor y color del borde */
+}
+
+th{
+    text-align: center;
+}
+
+th, td {
+    padding: 8px; /* Espaciado interno para el contenido */
+    
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #40a6ea; /* Borde amarillo pollo debajo */
+    background-color: white; /* Fondo blanco */
+    color: black;
+    font-size: 15px;
+}
+
+input[type="text"]::placeholder {
+    color: rgb(85, 85, 85); /* Color del placeholder en gris claro */
+}
+
+input[type="submit"] {
+    margin-left: 15px;
+    background-color: #40a6ea;  /* Color de fondo */
+    color: #ffffff;            /* Color del texto */
+    padding: 8px 20px;         /* Padding vertical y horizontal */
+    border: none;              /* Sin borde */
+    border-radius: 5px;        /* Bordes redondeados */
+    cursor: pointer;           /* Cambio de cursor al pasar el ratón */
+    font-size: 13px;           /* Tamaño de fuente */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave */
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;  /* Color de fondo más oscuro */
+    color: #fff;                /* Color del texto más claro */
+}
+
+.registrar{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+select {
+    margin-left: 15px;
+    padding: 7px 20px;              /* Padding interno */
+    font-size: 14px;            /* Tamaño de fuente */
+    border: 1px solid #ccc;     /* Borde */
+    border-radius: 5px;         /* Bordes redondeados */
+    background-color: #fff;     /* Color de fondo */
+    color: #333;               /* Color del texto */
+    cursor: pointer;            /* Cambio de cursor al pasar el ratón */
+    outline: none;              /* Quita el contorno al hacer foco */
+    transition: border-color 0.3s, background-color 0.3s; /* Transiciones suaves */
+}
+
+select:hover {
+    border-color: #3498db;     /* Borde más oscuro */
+}
+
+/* Estilos para la opción seleccionada */
+select option:checked {
+    background-color: #3498db;  /* Color de fondo de la opción seleccionada */
+    color: #fff;                /* Color del texto de la opción seleccionada */
+    font-size: 30px;
+}
+
+
